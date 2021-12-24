@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>menu burger</title>
+        <link rel="stylesheet" href="font-style.css">
         <link rel="stylesheet" href="styles.css" />
         <link rel="icon" type="image/png" href="img/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -39,18 +40,24 @@
             </header>
             <main class="main">
                 <div class="container">
-                    <div class="main__img--wrap">
-                        <img src="img/img-1.jpg" alt="General Banner" class="main__img" />
-                    </div>
+                    <div class="slider">
+			<div class="slider__item">
+				<img src="img/img-1.jpg" alt="">
+			</div>
+			<div class="slider__item">
+				<img src="img/img-2.jpg" alt="">
+			</div>
+			<div class="slider__item">
+				<img src="img/img-3.jpg" alt="">
+			</div>
+			
+		</div>
                 </div>
             </main>
         </div>
-        <script>
-            let burger = document.querySelector("#burger-icon");
-            let header = document.querySelector("#header");
-            burger.onclick = function () {
-                header.classList.toggle("menu-open");
-            };
-        </script>
+        
+        <script src="js/jquery.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/script.js"></script>
     </body>
 </html>
