@@ -105,7 +105,8 @@ img {
 .menu-open .burger-icon:before {
     width: calc(100% - 85%);
 }
-/*.menu-open .burger-icon span {
+/* 
+.menu-open .burger-icon span {
     display: none;
 }
 .menu-open .burger-icon:before {
