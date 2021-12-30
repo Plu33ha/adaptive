@@ -99,13 +99,13 @@ img {
 {
     background-color: #fff;
 }
-/*.menu-open .burger-icon span {
+.menu-open .burger-icon span {
     width: calc(100% - 50%);
 }
 .menu-open .burger-icon:before {
     width: calc(100% - 85%);
-}*/
-.menu-open .burger-icon span {
+}
+/*.menu-open .burger-icon span {
     display: none;
 }
 .menu-open .burger-icon:before {
@@ -115,7 +115,7 @@ img {
 .menu-open .burger-icon:after {
     transform: rotate(-45deg);
     top: 0;
-}
+}*/
 .menu-open .header__body {
     flex-direction: column;
     align-items: center;
